@@ -1,0 +1,15 @@
+C:\Users\c100r\source\repos\App_NET\Aplikacja\Aplikacja\bin\Debug\net8.0\Aplikacja.exe
+C:\Users\c100r\source\repos\App_NET\Aplikacja\Aplikacja\bin\Debug\net8.0\Aplikacja.deps.json
+C:\Users\c100r\source\repos\App_NET\Aplikacja\Aplikacja\bin\Debug\net8.0\Aplikacja.runtimeconfig.json
+C:\Users\c100r\source\repos\App_NET\Aplikacja\Aplikacja\bin\Debug\net8.0\Aplikacja.dll
+C:\Users\c100r\source\repos\App_NET\Aplikacja\Aplikacja\bin\Debug\net8.0\Aplikacja.pdb
+C:\Users\c100r\source\repos\App_NET\Aplikacja\Aplikacja\obj\Debug\net8.0\Aplikacja.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\c100r\source\repos\App_NET\Aplikacja\Aplikacja\obj\Debug\net8.0\Aplikacja.AssemblyInfoInputs.cache
+C:\Users\c100r\source\repos\App_NET\Aplikacja\Aplikacja\obj\Debug\net8.0\Aplikacja.AssemblyInfo.cs
+C:\Users\c100r\source\repos\App_NET\Aplikacja\Aplikacja\obj\Debug\net8.0\Aplikacja.csproj.CoreCompileInputs.cache
+C:\Users\c100r\source\repos\App_NET\Aplikacja\Aplikacja\obj\Debug\net8.0\Aplikacja.sourcelink.json
+C:\Users\c100r\source\repos\App_NET\Aplikacja\Aplikacja\obj\Debug\net8.0\Aplikacja.dll
+C:\Users\c100r\source\repos\App_NET\Aplikacja\Aplikacja\obj\Debug\net8.0\refint\Aplikacja.dll
+C:\Users\c100r\source\repos\App_NET\Aplikacja\Aplikacja\obj\Debug\net8.0\Aplikacja.pdb
+C:\Users\c100r\source\repos\App_NET\Aplikacja\Aplikacja\obj\Debug\net8.0\Aplikacja.genruntimeconfig.cache
+C:\Users\c100r\source\repos\App_NET\Aplikacja\Aplikacja\obj\Debug\net8.0\ref\Aplikacja.dll
