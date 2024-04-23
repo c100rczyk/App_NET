@@ -1,0 +1,255 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4062B2D0-63FD-433B-B53F-51A2BDAD3B52}|BoardLibrary\\BoardLibrary.csproj|C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardLibrary\\Migrations\\20240422195819_PierwszeConnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4062B2D0-63FD-433B-B53F-51A2BDAD3B52}|BoardLibrary\\BoardLibrary.csproj|solutionrelative:BoardLibrary\\Migrations\\20240422195819_PierwszeConnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062B2D0-63FD-433B-B53F-51A2BDAD3B52}|BoardLibrary\\BoardLibrary.csproj|c:\\users\\c100r\\source\\repos\\taskboard\\boardlibrary\\migrations\\20240422151048_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4062B2D0-63FD-433B-B53F-51A2BDAD3B52}|BoardLibrary\\BoardLibrary.csproj|solutionrelative:boardlibrary\\migrations\\20240422151048_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062B2D0-63FD-433B-B53F-51A2BDAD3B52}|BoardLibrary\\BoardLibrary.csproj|C:\\Users\\c100r\\source\\repos\\TaskBoard\\boardlibrary\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4062B2D0-63FD-433B-B53F-51A2BDAD3B52}|BoardLibrary\\BoardLibrary.csproj|solutionrelative:boardlibrary\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062B2D0-63FD-433B-B53F-51A2BDAD3B52}|BoardLibrary\\BoardLibrary.csproj|C:\\Users\\c100r\\source\\repos\\TaskBoard\\boardlibrary\\personmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4062B2D0-63FD-433B-B53F-51A2BDAD3B52}|BoardLibrary\\BoardLibrary.csproj|solutionrelative:boardlibrary\\personmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062B2D0-63FD-433B-B53F-51A2BDAD3B52}|BoardLibrary\\BoardLibrary.csproj|c:\\users\\c100r\\source\\repos\\taskboard\\boardlibrary\\migrations\\boardcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4062B2D0-63FD-433B-B53F-51A2BDAD3B52}|BoardLibrary\\BoardLibrary.csproj|solutionrelative:boardlibrary\\migrations\\boardcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062B2D0-63FD-433B-B53F-51A2BDAD3B52}|BoardLibrary\\BoardLibrary.csproj|C:\\Users\\c100r\\source\\repos\\TaskBoard\\boardlibrary\\boardcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4062B2D0-63FD-433B-B53F-51A2BDAD3B52}|BoardLibrary\\BoardLibrary.csproj|solutionrelative:boardlibrary\\boardcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062B2D0-63FD-433B-B53F-51A2BDAD3B52}|BoardLibrary\\BoardLibrary.csproj|c:\\users\\c100r\\source\\repos\\taskboard\\boardlibrary\\dbcontextconnectorclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4062B2D0-63FD-433B-B53F-51A2BDAD3B52}|BoardLibrary\\BoardLibrary.csproj|solutionrelative:boardlibrary\\dbcontextconnectorclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062B2D0-63FD-433B-B53F-51A2BDAD3B52}|BoardLibrary\\BoardLibrary.csproj|C:\\Users\\c100r\\source\\repos\\TaskBoard\\boardlibrary\\projectmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4062B2D0-63FD-433B-B53F-51A2BDAD3B52}|BoardLibrary\\BoardLibrary.csproj|solutionrelative:boardlibrary\\projectmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2283BA1C-A73A-49BA-A5FD-D1B5C8D9BC25}|BoardUI\\BoardUI.csproj|C:\\Users\\c100r\\source\\repos\\TaskBoard\\boardui\\app1.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2283BA1C-A73A-49BA-A5FD-D1B5C8D9BC25}|BoardUI\\BoardUI.csproj|solutionrelative:boardui\\app1.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062B2D0-63FD-433B-B53F-51A2BDAD3B52}|BoardLibrary\\BoardLibrary.csproj|c:\\users\\c100r\\source\\repos\\taskboard\\boardlibrary\\migrations\\20240423180144_initialcreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4062B2D0-63FD-433B-B53F-51A2BDAD3B52}|BoardLibrary\\BoardLibrary.csproj|solutionrelative:boardlibrary\\migrations\\20240423180144_initialcreate2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2283BA1C-A73A-49BA-A5FD-D1B5C8D9BC25}|BoardUI\\BoardUI.csproj|C:\\Users\\c100r\\source\\repos\\TaskBoard\\boardui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2283BA1C-A73A-49BA-A5FD-D1B5C8D9BC25}|BoardUI\\BoardUI.csproj|solutionrelative:boardui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2283BA1C-A73A-49BA-A5FD-D1B5C8D9BC25}|BoardUI\\BoardUI.csproj|c:\\users\\c100r\\source\\repos\\taskboard\\boardui\\createpersonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2283BA1C-A73A-49BA-A5FD-D1B5C8D9BC25}|BoardUI\\BoardUI.csproj|solutionrelative:boardui\\createpersonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2283BA1C-A73A-49BA-A5FD-D1B5C8D9BC25}|BoardUI\\BoardUI.csproj|C:\\Users\\c100r\\source\\repos\\TaskBoard\\boardui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2283BA1C-A73A-49BA-A5FD-D1B5C8D9BC25}|BoardUI\\BoardUI.csproj|solutionrelative:boardui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2283BA1C-A73A-49BA-A5FD-D1B5C8D9BC25}|BoardUI\\BoardUI.csproj|C:\\Users\\c100r\\source\\repos\\TaskBoard\\boardui\\createpersonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2283BA1C-A73A-49BA-A5FD-D1B5C8D9BC25}|BoardUI\\BoardUI.csproj|solutionrelative:boardui\\createpersonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240422151048_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardLibrary\\Migrations\\20240422151048_InitialCreate.cs",
+              "RelativeDocumentMoniker": "BoardLibrary\\Migrations\\20240422151048_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardLibrary\\Migrations\\20240422151048_InitialCreate.cs",
+              "RelativeToolTip": "BoardLibrary\\Migrations\\20240422151048_InitialCreate.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAAEYAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T18:27:56.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PersonModel.cs",
+              "DocumentMoniker": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardLibrary\\PersonModel.cs",
+              "RelativeDocumentMoniker": "BoardLibrary\\PersonModel.cs",
+              "ToolTip": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardLibrary\\PersonModel.cs",
+              "RelativeToolTip": "BoardLibrary\\PersonModel.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABAAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T16:18:04.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BoardContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardLibrary\\Migrations\\BoardContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "BoardLibrary\\Migrations\\BoardContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardLibrary\\Migrations\\BoardContextModelSnapshot.cs",
+              "RelativeToolTip": "BoardLibrary\\Migrations\\BoardContextModelSnapshot.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAAAGcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T18:20:11.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskModel.cs",
+              "DocumentMoniker": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardLibrary\\TaskModel.cs",
+              "RelativeDocumentMoniker": "BoardLibrary\\TaskModel.cs",
+              "ToolTip": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardLibrary\\TaskModel.cs",
+              "RelativeToolTip": "BoardLibrary\\TaskModel.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T13:56:49.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240422195819_PierwszeConnection.cs",
+              "DocumentMoniker": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardLibrary\\Migrations\\20240422195819_PierwszeConnection.cs",
+              "RelativeDocumentMoniker": "BoardLibrary\\Migrations\\20240422195819_PierwszeConnection.cs",
+              "ToolTip": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardLibrary\\Migrations\\20240422195819_PierwszeConnection.cs",
+              "RelativeToolTip": "BoardLibrary\\Migrations\\20240422195819_PierwszeConnection.cs",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T19:58:19.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BoardContext.cs",
+              "DocumentMoniker": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardLibrary\\BoardContext.cs",
+              "RelativeDocumentMoniker": "BoardLibrary\\BoardContext.cs",
+              "ToolTip": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardLibrary\\BoardContext.cs",
+              "RelativeToolTip": "BoardLibrary\\BoardContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T14:04:26.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DbContextConnectorClass.cs",
+              "DocumentMoniker": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardLibrary\\DbContextConnectorClass.cs",
+              "RelativeDocumentMoniker": "BoardLibrary\\DbContextConnectorClass.cs",
+              "ToolTip": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardLibrary\\DbContextConnectorClass.cs",
+              "RelativeToolTip": "BoardLibrary\\DbContextConnectorClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T18:30:56.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App1.config",
+              "DocumentMoniker": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardUI\\App1.config",
+              "RelativeDocumentMoniker": "BoardUI\\App1.config",
+              "ToolTip": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardUI\\App1.config",
+              "RelativeToolTip": "BoardUI\\App1.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-22T19:13:35.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProjectModel.cs",
+              "DocumentMoniker": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardLibrary\\ProjectModel.cs",
+              "RelativeDocumentMoniker": "BoardLibrary\\ProjectModel.cs",
+              "ToolTip": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardLibrary\\ProjectModel.cs",
+              "RelativeToolTip": "BoardLibrary\\ProjectModel.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T14:00:56.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20240423180144_InitialCreate2.cs",
+              "DocumentMoniker": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardLibrary\\Migrations\\20240423180144_InitialCreate2.cs",
+              "RelativeDocumentMoniker": "BoardLibrary\\Migrations\\20240423180144_InitialCreate2.cs",
+              "ToolTip": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardLibrary\\Migrations\\20240423180144_InitialCreate2.cs",
+              "RelativeToolTip": "BoardLibrary\\Migrations\\20240423180144_InitialCreate2.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T18:01:45.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form1.cs [Projekt]",
+              "DocumentMoniker": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardUI\\Form1.cs",
+              "RelativeDocumentMoniker": "BoardUI\\Form1.cs",
+              "ToolTip": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardUI\\Form1.cs [Projekt]",
+              "RelativeToolTip": "BoardUI\\Form1.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T13:10:04.923Z",
+              "EditorCaption": " [Projekt]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreatePersonForm.cs",
+              "DocumentMoniker": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardUI\\CreatePersonForm.cs",
+              "RelativeDocumentMoniker": "BoardUI\\CreatePersonForm.cs",
+              "ToolTip": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardUI\\CreatePersonForm.cs",
+              "RelativeToolTip": "BoardUI\\CreatePersonForm.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAQwDIAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T19:07:00.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardUI\\Program.cs",
+              "RelativeDocumentMoniker": "BoardUI\\Program.cs",
+              "ToolTip": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardUI\\Program.cs",
+              "RelativeToolTip": "BoardUI\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T14:53:51.708Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreatePersonForm.cs [Projekt]",
+              "DocumentMoniker": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardUI\\CreatePersonForm.cs",
+              "RelativeDocumentMoniker": "BoardUI\\CreatePersonForm.cs",
+              "ToolTip": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardUI\\CreatePersonForm.cs [Projekt]",
+              "RelativeToolTip": "BoardUI\\CreatePersonForm.cs [Projekt]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-19T16:13:18.865Z",
+              "EditorCaption": " [Projekt]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
