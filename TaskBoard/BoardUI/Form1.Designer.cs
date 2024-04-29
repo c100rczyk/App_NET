@@ -46,6 +46,9 @@ namespace BoardUI
             ChangeIncompleteButton = new Button();
             RemoveTaskButton = new Button();
             UndoButton = new Button();
+            ToDoListBox = new ListBox();
+            CompletedListBox = new ListBox();
+            IncompleteListBox = new ListBox();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -156,6 +159,7 @@ namespace BoardUI
             // splitContainer1.Panel2
             // 
             splitContainer1.Panel2.BackColor = Color.Azure;
+            splitContainer1.Panel2.Controls.Add(ToDoListBox);
             splitContainer1.Panel2.Controls.Add(ToDoLabel);
             splitContainer1.Panel2.Paint += splitContainer1_Panel2_Paint;
             splitContainer1.Size = new Size(756, 829);
@@ -183,11 +187,13 @@ namespace BoardUI
             // splitContainer2.Panel1
             // 
             splitContainer2.Panel1.BackColor = Color.Honeydew;
+            splitContainer2.Panel1.Controls.Add(CompletedListBox);
             splitContainer2.Panel1.Controls.Add(CompletedLabel);
             // 
             // splitContainer2.Panel2
             // 
             splitContainer2.Panel2.BackColor = Color.SeaShell;
+            splitContainer2.Panel2.Controls.Add(IncompleteListBox);
             splitContainer2.Panel2.Controls.Add(IncompleteLabel);
             splitContainer2.Size = new Size(796, 586);
             splitContainer2.SplitterDistance = 403;
@@ -259,6 +265,30 @@ namespace BoardUI
             UndoButton.TabIndex = 13;
             UndoButton.Text = "Undo";
             UndoButton.UseVisualStyleBackColor = true;
+            // 
+            // ToDoListBox
+            // 
+            ToDoListBox.FormattingEnabled = true;
+            ToDoListBox.Location = new Point(37, 51);
+            ToDoListBox.Name = "ToDoListBox";
+            ToDoListBox.Size = new Size(353, 464);
+            ToDoListBox.TabIndex = 2;
+            // 
+            // CompletedListBox
+            // 
+            CompletedListBox.FormattingEnabled = true;
+            CompletedListBox.Location = new Point(28, 58);
+            CompletedListBox.Name = "CompletedListBox";
+            CompletedListBox.Size = new Size(345, 464);
+            CompletedListBox.TabIndex = 1;
+            // 
+            // IncompleteListBox
+            // 
+            IncompleteListBox.FormattingEnabled = true;
+            IncompleteListBox.Location = new Point(32, 58);
+            IncompleteListBox.Name = "IncompleteListBox";
+            IncompleteListBox.Size = new Size(327, 464);
+            IncompleteListBox.TabIndex = 1;
             // 
             // Form1
             // 
@@ -334,5 +364,8 @@ namespace BoardUI
         private Button ChangeIncompleteButton;
         private Button RemoveTaskButton;
         private Button UndoButton;
+        private ListBox ToDoListBox;
+        private ListBox CompletedListBox;
+        private ListBox IncompleteListBox;
     }
 }

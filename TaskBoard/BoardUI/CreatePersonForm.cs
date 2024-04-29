@@ -42,24 +42,18 @@ namespace BoardUI
         {
             using (var context = new BoardContext())
             {
-                var newPerson = new PersonModel
+                PersonModel newPerson = new PersonModel();
                 {
-                    FirstName = "Cezary",
-                    LastName = "Storczyk",
-                    email = "moj_email@wp.pl"
+                    newPerson.FirstName = CreateFirstNameValue.Text;
+                    newPerson.LastName = CreateLastNameValue.Text;
+                    newPerson.email = CreateEmailValue.Text;
                 };
                 context.Persons.Add(newPerson);
                 context.SaveChanges();
             }
-
-            //PersonModel model = new PersonModel(
-            //        CreateFirstNameValue.Text,
-            //        CreateLastNameValue.Text,
-            //        CreateEmailValue.Text
-            //        );
-
-            
-
+            CreateFirstNameValue.Text = "";
+            CreateLastNameValue.Text = "";
+            CreateEmailValue.Text = "";
 
         }
     }

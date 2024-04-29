@@ -133,3 +133,4 @@ C:\Users\c100r\source\repos\TaskBoard\BoardUI\obj\Debug\net8.0-windows\refint\Bo
 C:\Users\c100r\source\repos\TaskBoard\BoardUI\obj\Debug\net8.0-windows\BoardUI.pdb
 C:\Users\c100r\source\repos\TaskBoard\BoardUI\obj\Debug\net8.0-windows\BoardUI.genruntimeconfig.cache
 C:\Users\c100r\source\repos\TaskBoard\BoardUI\obj\Debug\net8.0-windows\ref\BoardUI.dll
+C:\Users\c100r\source\repos\TaskBoard\BoardUI\obj\Debug\net8.0-windows\BoardUI.sourcelink.json

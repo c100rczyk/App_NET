@@ -13,5 +13,16 @@ namespace BoardLibrary
         public string? ProjectName { get; set; }
         public string? Technology { get; set; }
 
+        public ProjectModel()
+        {
+        }
+
+        public ProjectModel(string projectname, string technology)
+        {
+            ProjectName = projectname;
+            Technology = technology;
+        }
     }
+
+  
 }

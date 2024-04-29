@@ -92,6 +92,7 @@
             CreateProjectButton.TabIndex = 5;
             CreateProjectButton.Text = "button1";
             CreateProjectButton.UseVisualStyleBackColor = false;
+            CreateProjectButton.Click += CreateProjectButton_Click;
             // 
             // CreateProjectForm
             // 
@@ -105,7 +106,7 @@
             Controls.Add(ProjectNameLabel);
             Controls.Add(CreateProjectHeader);
             Font = new Font("Segoe UI", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 238);
-            Margin = new Padding(5, 5, 5, 5);
+            Margin = new Padding(5);
             Name = "CreateProjectForm";
             Text = "CreateProjectForm";
             ResumeLayout(false);

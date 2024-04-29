@@ -33,14 +33,13 @@
             TaskDifficultyLevelLabel = new Label();
             TaskPersonsListLabel = new Label();
             TaskPersonListComboBox = new ComboBox();
-            TaskAssignPersonListBox = new ListBox();
             TaskDeadLineLabel = new Label();
             TaskDeadlineValue = new TextBox();
             TaskDifficultyLevelValue = new TextBox();
             TaskTitleValue = new TextBox();
             TaskProjectNameLabel = new Label();
-            TaskProjectNameValue = new TextBox();
             TaskCreateTaskButton = new Button();
+            taskProjectNameComboBox = new ComboBox();
             SuspendLayout();
             // 
             // CreateTaskHeader
@@ -92,16 +91,7 @@
             TaskPersonListComboBox.Name = "TaskPersonListComboBox";
             TaskPersonListComboBox.Size = new Size(242, 39);
             TaskPersonListComboBox.TabIndex = 5;
-            // 
-            // TaskAssignPersonListBox
-            // 
-            TaskAssignPersonListBox.BackColor = Color.LightCyan;
-            TaskAssignPersonListBox.FormattingEnabled = true;
-            TaskAssignPersonListBox.ItemHeight = 31;
-            TaskAssignPersonListBox.Location = new Point(77, 379);
-            TaskAssignPersonListBox.Name = "TaskAssignPersonListBox";
-            TaskAssignPersonListBox.Size = new Size(478, 128);
-            TaskAssignPersonListBox.TabIndex = 6;
+            TaskPersonListComboBox.SelectedIndexChanged += TaskPersonListComboBox_SelectedIndexChanged;
             // 
             // TaskDeadLineLabel
             // 
@@ -144,23 +134,16 @@
             TaskProjectNameLabel.ForeColor = SystemColors.MenuHighlight;
             TaskProjectNameLabel.Location = new Point(77, 247);
             TaskProjectNameLabel.Name = "TaskProjectNameLabel";
-            TaskProjectNameLabel.Size = new Size(76, 31);
+            TaskProjectNameLabel.Size = new Size(152, 31);
             TaskProjectNameLabel.TabIndex = 11;
-            TaskProjectNameLabel.Text = "label2";
-            // 
-            // TaskProjectNameValue
-            // 
-            TaskProjectNameValue.BackColor = Color.LightCyan;
-            TaskProjectNameValue.Location = new Point(315, 247);
-            TaskProjectNameValue.Name = "TaskProjectNameValue";
-            TaskProjectNameValue.Size = new Size(240, 38);
-            TaskProjectNameValue.TabIndex = 12;
+            TaskProjectNameLabel.Text = "Project Name";
+            TaskProjectNameLabel.Click += TaskProjectNameLabel_Click;
             // 
             // TaskCreateTaskButton
             // 
             TaskCreateTaskButton.BackColor = SystemColors.HotTrack;
             TaskCreateTaskButton.ForeColor = Color.White;
-            TaskCreateTaskButton.Location = new Point(214, 529);
+            TaskCreateTaskButton.Location = new Point(214, 395);
             TaskCreateTaskButton.Name = "TaskCreateTaskButton";
             TaskCreateTaskButton.Size = new Size(204, 65);
             TaskCreateTaskButton.TabIndex = 13;
@@ -168,19 +151,27 @@
             TaskCreateTaskButton.UseVisualStyleBackColor = false;
             TaskCreateTaskButton.Click += TaskCreateTaskButton_Click;
             // 
+            // taskProjectNameComboBox
+            // 
+            taskProjectNameComboBox.FormattingEnabled = true;
+            taskProjectNameComboBox.Location = new Point(313, 250);
+            taskProjectNameComboBox.Name = "taskProjectNameComboBox";
+            taskProjectNameComboBox.Size = new Size(242, 39);
+            taskProjectNameComboBox.TabIndex = 14;
+            taskProjectNameComboBox.SelectedIndexChanged += taskProjectNameValue_SelectedIndexChanged;
+            // 
             // CreateTaskForm
             // 
             AutoScaleDimensions = new SizeF(13F, 31F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(634, 622);
+            ClientSize = new Size(634, 490);
+            Controls.Add(taskProjectNameComboBox);
             Controls.Add(TaskCreateTaskButton);
-            Controls.Add(TaskProjectNameValue);
             Controls.Add(TaskProjectNameLabel);
             Controls.Add(TaskTitleValue);
             Controls.Add(TaskDifficultyLevelValue);
             Controls.Add(TaskDeadlineValue);
             Controls.Add(TaskDeadLineLabel);
-            Controls.Add(TaskAssignPersonListBox);
             Controls.Add(TaskPersonListComboBox);
             Controls.Add(TaskPersonsListLabel);
             Controls.Add(TaskDifficultyLevelLabel);
@@ -202,13 +193,12 @@
         private Label TaskDifficultyLevelLabel;
         private Label TaskPersonsListLabel;
         private ComboBox TaskPersonListComboBox;
-        private ListBox TaskAssignPersonListBox;
         private Label TaskDeadLineLabel;
         private TextBox TaskDeadlineValue;
         private TextBox TaskDifficultyLevelValue;
         private TextBox TaskTitleValue;
         private Label TaskProjectNameLabel;
-        private TextBox TaskProjectNameValue;
         private Button TaskCreateTaskButton;
+        private ComboBox taskProjectNameComboBox;
     }
 }

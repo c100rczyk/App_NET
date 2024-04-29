@@ -12,3 +12,4 @@ C:\Users\c100r\source\repos\TaskBoard\BoardLibrary\obj\Debug\net8.0\ref\BoardLib
 C:\Users\c100r\source\repos\TaskBoard\BoardLibrary\obj\Debug\net8.0\BoardLibrary.csproj.AssemblyReference.cache
 C:\Users\c100r\source\repos\TaskBoard\BoardLibrary\bin\Debug\net8.0\BoardLibrary.runtimeconfig.json
 C:\Users\c100r\source\repos\TaskBoard\BoardLibrary\obj\Debug\net8.0\BoardLibrary.genruntimeconfig.cache
+C:\Users\c100r\source\repos\TaskBoard\BoardLibrary\obj\Debug\net8.0\BoardLibrary.sourcelink.json

@@ -14,6 +14,14 @@ namespace BoardLibrary
         public string? LastName { get; set; }
         public string? email { get; set; }
 
+        public string FullName 
+        {
+            get
+            {
+                return $"{ FirstName } { LastName }";
+            }
+        }
+
         //public virtual TaskModel? TaskModel { get; set; }
         //public virtual ProjectModel ProjectModel { get; set; }
 

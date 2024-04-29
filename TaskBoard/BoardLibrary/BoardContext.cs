@@ -15,7 +15,8 @@ namespace BoardLibrary
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=DESKTOP-5T59EFL; Database=TaskBoard2; Trusted_Connection=True; TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer(@"Server=DESKTOP-5T59EFL; Database=TaskBoard;
+                                        Trusted_Connection=True; TrustServerCertificate=True");
             
         }
     }
