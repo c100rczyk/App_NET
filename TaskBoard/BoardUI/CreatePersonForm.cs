@@ -50,6 +50,8 @@ namespace BoardUI
                 };
                 context.Persons.Add(newPerson);
                 context.SaveChanges();
+
+                
             }
             CreateFirstNameValue.Text = "";
             CreateLastNameValue.Text = "";

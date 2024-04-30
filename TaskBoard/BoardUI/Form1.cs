@@ -16,5 +16,26 @@ namespace BoardUI
         {
 
         }
+
+        private void CreatePersonFormButton_Click(object sender, EventArgs e)
+        {
+            CreatePersonForm person = new CreatePersonForm();
+            person.ShowDialog();
+            LoadPeopleToListBox();
+        }
+
+        private void CreateTaskFormButton_Click(object sender, EventArgs e)
+        {
+            CreateTaskForm task = new CreateTaskForm();
+            task.ShowDialog();
+            LoadTaskToListBox();
+        }
+
+        private void CreateProjectFormButton_Click(object sender, EventArgs e)
+        {
+            CreateProjectForm project = new CreateProjectForm();
+            project.ShowDialog();
+            LoadProjectToListBox();
+        }
     }
 }

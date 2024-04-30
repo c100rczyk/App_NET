@@ -3,40 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2283BA1C-A73A-49BA-A5FD-D1B5C8D9BC25}|BoardUI\\BoardUI.csproj|c:\\users\\c100r\\source\\repos\\taskboard\\boardui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{2283BA1C-A73A-49BA-A5FD-D1B5C8D9BC25}|BoardUI\\BoardUI.csproj|solutionrelative:boardui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{4062B2D0-63FD-433B-B53F-51A2BDAD3B52}|BoardLibrary\\BoardLibrary.csproj|C:\\Users\\c100r\\source\\repos\\TaskBoard\\boardlibrary\\boardcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4062B2D0-63FD-433B-B53F-51A2BDAD3B52}|BoardLibrary\\BoardLibrary.csproj|solutionrelative:boardlibrary\\boardcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2283BA1C-A73A-49BA-A5FD-D1B5C8D9BC25}|BoardUI\\BoardUI.csproj|c:\\users\\c100r\\source\\repos\\taskboard\\boardui\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2283BA1C-A73A-49BA-A5FD-D1B5C8D9BC25}|BoardUI\\BoardUI.csproj|solutionrelative:boardui\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2283BA1C-A73A-49BA-A5FD-D1B5C8D9BC25}|BoardUI\\BoardUI.csproj|c:\\users\\c100r\\source\\repos\\taskboard\\boardui\\createpersonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2283BA1C-A73A-49BA-A5FD-D1B5C8D9BC25}|BoardUI\\BoardUI.csproj|solutionrelative:boardui\\createpersonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4062B2D0-63FD-433B-B53F-51A2BDAD3B52}|BoardLibrary\\BoardLibrary.csproj|C:\\Users\\c100r\\source\\repos\\TaskBoard\\boardlibrary\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4062B2D0-63FD-433B-B53F-51A2BDAD3B52}|BoardLibrary\\BoardLibrary.csproj|solutionrelative:boardlibrary\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2283BA1C-A73A-49BA-A5FD-D1B5C8D9BC25}|BoardUI\\BoardUI.csproj|c:\\users\\c100r\\source\\repos\\taskboard\\boardui\\createtaskform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2283BA1C-A73A-49BA-A5FD-D1B5C8D9BC25}|BoardUI\\BoardUI.csproj|solutionrelative:boardui\\createtaskform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4062B2D0-63FD-433B-B53F-51A2BDAD3B52}|BoardLibrary\\BoardLibrary.csproj|C:\\Users\\c100r\\source\\repos\\TaskBoard\\boardlibrary\\projectmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4062B2D0-63FD-433B-B53F-51A2BDAD3B52}|BoardLibrary\\BoardLibrary.csproj|solutionrelative:boardlibrary\\projectmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2283BA1C-A73A-49BA-A5FD-D1B5C8D9BC25}|BoardUI\\BoardUI.csproj|c:\\users\\c100r\\source\\repos\\taskboard\\boardui\\createpersonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{2283BA1C-A73A-49BA-A5FD-D1B5C8D9BC25}|BoardUI\\BoardUI.csproj|solutionrelative:boardui\\createpersonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2283BA1C-A73A-49BA-A5FD-D1B5C8D9BC25}|BoardUI\\BoardUI.csproj|C:\\Users\\c100r\\source\\repos\\TaskBoard\\boardui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2283BA1C-A73A-49BA-A5FD-D1B5C8D9BC25}|BoardUI\\BoardUI.csproj|solutionrelative:boardui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4062B2D0-63FD-433B-B53F-51A2BDAD3B52}|BoardLibrary\\BoardLibrary.csproj|C:\\Users\\c100r\\source\\repos\\TaskBoard\\boardlibrary\\boardcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4062B2D0-63FD-433B-B53F-51A2BDAD3B52}|BoardLibrary\\BoardLibrary.csproj|solutionrelative:boardlibrary\\boardcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4062B2D0-63FD-433B-B53F-51A2BDAD3B52}|BoardLibrary\\BoardLibrary.csproj|C:\\Users\\c100r\\source\\repos\\TaskBoard\\boardlibrary\\personmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4062B2D0-63FD-433B-B53F-51A2BDAD3B52}|BoardLibrary\\BoardLibrary.csproj|solutionrelative:boardlibrary\\personmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2283BA1C-A73A-49BA-A5FD-D1B5C8D9BC25}|BoardUI\\BoardUI.csproj|C:\\Users\\c100r\\source\\repos\\TaskBoard\\boardui\\createpersonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2283BA1C-A73A-49BA-A5FD-D1B5C8D9BC25}|BoardUI\\BoardUI.csproj|solutionrelative:boardui\\createpersonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2283BA1C-A73A-49BA-A5FD-D1B5C8D9BC25}|BoardUI\\BoardUI.csproj|c:\\users\\c100r\\source\\repos\\taskboard\\boardui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2283BA1C-A73A-49BA-A5FD-D1B5C8D9BC25}|BoardUI\\BoardUI.csproj|solutionrelative:boardui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,19 +34,33 @@
       "DocumentGroups": [
         {
           "DockedHeight": 289,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Projekt]",
-              "DocumentMoniker": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardUI\\Form1.cs",
-              "RelativeDocumentMoniker": "BoardUI\\Form1.cs",
-              "ToolTip": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardUI\\Form1.cs [Projekt]",
-              "RelativeToolTip": "BoardUI\\Form1.cs [Projekt]",
+              "DocumentIndex": 2,
+              "Title": "CreatePersonForm.cs",
+              "DocumentMoniker": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardUI\\CreatePersonForm.cs",
+              "RelativeDocumentMoniker": "BoardUI\\CreatePersonForm.cs",
+              "ToolTip": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardUI\\CreatePersonForm.cs",
+              "RelativeToolTip": "BoardUI\\CreatePersonForm.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAWwDUAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T17:13:51.432Z",
-              "EditorCaption": " [Projekt]"
+              "WhenOpened": "2024-04-30T12:08:41.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardUI\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "BoardUI\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardUI\\Form1.Designer.cs",
+              "RelativeToolTip": "BoardUI\\Form1.Designer.cs",
+              "ViewState": "AQIAAE8BAAAAAAAAAAA5wFcBAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T12:04:32.239Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -69,38 +71,25 @@
               "ToolTip": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardUI\\CreatePersonForm.cs [Projekt]",
               "RelativeToolTip": "BoardUI\\CreatePersonForm.cs [Projekt]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T16:55:57.679Z",
+              "WhenOpened": "2024-04-30T12:08:39.888Z",
               "EditorCaption": " [Projekt]"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardUI\\Form1.cs",
+              "RelativeDocumentMoniker": "BoardUI\\Form1.cs",
+              "ToolTip": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardUI\\Form1.cs",
+              "RelativeToolTip": "BoardUI\\Form1.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA3wBYAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T12:02:26.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ProjectModel.cs",
-              "DocumentMoniker": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardLibrary\\ProjectModel.cs",
-              "RelativeDocumentMoniker": "BoardLibrary\\ProjectModel.cs",
-              "ToolTip": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardLibrary\\ProjectModel.cs",
-              "RelativeToolTip": "BoardLibrary\\ProjectModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T16:29:04.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateTaskForm.cs",
-              "DocumentMoniker": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardUI\\CreateTaskForm.cs",
-              "RelativeDocumentMoniker": "BoardUI\\CreateTaskForm.cs",
-              "ToolTip": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardUI\\CreateTaskForm.cs",
-              "RelativeToolTip": "BoardUI\\CreateTaskForm.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAvwEsAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T13:18:02.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "TaskModel.cs",
               "DocumentMoniker": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardLibrary\\TaskModel.cs",
               "RelativeDocumentMoniker": "BoardLibrary\\TaskModel.cs",
@@ -113,53 +102,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "BoardContext.cs",
               "DocumentMoniker": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardLibrary\\BoardContext.cs",
               "RelativeDocumentMoniker": "BoardLibrary\\BoardContext.cs",
               "ToolTip": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardLibrary\\BoardContext.cs",
               "RelativeToolTip": "BoardLibrary\\BoardContext.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAIAwwBAAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T12:26:40.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardUI\\Program.cs",
-              "RelativeDocumentMoniker": "BoardUI\\Program.cs",
-              "ToolTip": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardUI\\Program.cs",
-              "RelativeToolTip": "BoardUI\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T14:53:51.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PersonModel.cs",
-              "DocumentMoniker": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardLibrary\\PersonModel.cs",
-              "RelativeDocumentMoniker": "BoardLibrary\\PersonModel.cs",
-              "ToolTip": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardLibrary\\PersonModel.cs",
-              "RelativeToolTip": "BoardLibrary\\PersonModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T15:57:41.087Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CreatePersonForm.cs",
-              "DocumentMoniker": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardUI\\CreatePersonForm.cs",
-              "RelativeDocumentMoniker": "BoardUI\\CreatePersonForm.cs",
-              "ToolTip": "C:\\Users\\c100r\\source\\repos\\TaskBoard\\BoardUI\\CreatePersonForm.cs",
-              "RelativeToolTip": "BoardUI\\CreatePersonForm.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAawDgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T13:06:49.108Z",
               "EditorCaption": ""
             }
           ]

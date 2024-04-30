@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BoardLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bfd39938a795770eb0efb6bea49b879501a082d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38b0a2491b0da07e5472c346b1112f8dd60788fc")]
 [assembly: System.Reflection.AssemblyProductAttribute("BoardLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BoardLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

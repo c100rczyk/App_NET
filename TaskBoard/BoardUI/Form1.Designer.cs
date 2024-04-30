@@ -1,4 +1,6 @@
 ﻿
+using BoardLibrary;
+
 namespace BoardUI
 {
     partial class Form1
@@ -38,17 +40,17 @@ namespace BoardUI
             CreateTaskFormButton = new Button();
             CreateProjectFormButton = new Button();
             splitContainer1 = new SplitContainer();
+            ToDoListBox = new ListBox();
             ToDoLabel = new TextBox();
             splitContainer2 = new SplitContainer();
+            CompletedListBox = new ListBox();
             CompletedLabel = new TextBox();
+            IncompleteListBox = new ListBox();
             IncompleteLabel = new TextBox();
             ChangeCompletedButton = new Button();
             ChangeIncompleteButton = new Button();
             RemoveTaskButton = new Button();
             UndoButton = new Button();
-            ToDoListBox = new ListBox();
-            CompletedListBox = new ListBox();
-            IncompleteListBox = new ListBox();
             ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
             splitContainer1.Panel1.SuspendLayout();
             splitContainer1.Panel2.SuspendLayout();
@@ -119,6 +121,7 @@ namespace BoardUI
             CreatePersonFormButton.TabIndex = 5;
             CreatePersonFormButton.Text = "Create Person";
             CreatePersonFormButton.UseVisualStyleBackColor = false;
+            CreatePersonFormButton.Click += CreatePersonFormButton_Click;
             // 
             // CreateTaskFormButton
             // 
@@ -129,6 +132,7 @@ namespace BoardUI
             CreateTaskFormButton.TabIndex = 6;
             CreateTaskFormButton.Text = "Create a Task";
             CreateTaskFormButton.UseVisualStyleBackColor = false;
+            CreateTaskFormButton.Click += CreateTaskFormButton_Click;
             // 
             // CreateProjectFormButton
             // 
@@ -139,6 +143,7 @@ namespace BoardUI
             CreateProjectFormButton.TabIndex = 7;
             CreateProjectFormButton.Text = "Create a project";
             CreateProjectFormButton.UseVisualStyleBackColor = false;
+            CreateProjectFormButton.Click += CreateProjectFormButton_Click;
             // 
             // splitContainer1
             // 
@@ -165,6 +170,14 @@ namespace BoardUI
             splitContainer1.Size = new Size(756, 829);
             splitContainer1.SplitterDistance = 327;
             splitContainer1.TabIndex = 8;
+            // 
+            // ToDoListBox
+            // 
+            ToDoListBox.FormattingEnabled = true;
+            ToDoListBox.Location = new Point(37, 51);
+            ToDoListBox.Name = "ToDoListBox";
+            ToDoListBox.Size = new Size(353, 464);
+            ToDoListBox.TabIndex = 2;
             // 
             // ToDoLabel
             // 
@@ -199,6 +212,14 @@ namespace BoardUI
             splitContainer2.SplitterDistance = 403;
             splitContainer2.TabIndex = 9;
             // 
+            // CompletedListBox
+            // 
+            CompletedListBox.FormattingEnabled = true;
+            CompletedListBox.Location = new Point(28, 58);
+            CompletedListBox.Name = "CompletedListBox";
+            CompletedListBox.Size = new Size(345, 464);
+            CompletedListBox.TabIndex = 1;
+            // 
             // CompletedLabel
             // 
             CompletedLabel.BackColor = Color.Honeydew;
@@ -210,6 +231,14 @@ namespace BoardUI
             CompletedLabel.Size = new Size(141, 36);
             CompletedLabel.TabIndex = 0;
             CompletedLabel.Text = "Completed:";
+            // 
+            // IncompleteListBox
+            // 
+            IncompleteListBox.FormattingEnabled = true;
+            IncompleteListBox.Location = new Point(32, 58);
+            IncompleteListBox.Name = "IncompleteListBox";
+            IncompleteListBox.Size = new Size(327, 464);
+            IncompleteListBox.TabIndex = 1;
             // 
             // IncompleteLabel
             // 
@@ -266,30 +295,6 @@ namespace BoardUI
             UndoButton.Text = "Undo";
             UndoButton.UseVisualStyleBackColor = true;
             // 
-            // ToDoListBox
-            // 
-            ToDoListBox.FormattingEnabled = true;
-            ToDoListBox.Location = new Point(37, 51);
-            ToDoListBox.Name = "ToDoListBox";
-            ToDoListBox.Size = new Size(353, 464);
-            ToDoListBox.TabIndex = 2;
-            // 
-            // CompletedListBox
-            // 
-            CompletedListBox.FormattingEnabled = true;
-            CompletedListBox.Location = new Point(28, 58);
-            CompletedListBox.Name = "CompletedListBox";
-            CompletedListBox.Size = new Size(345, 464);
-            CompletedListBox.TabIndex = 1;
-            // 
-            // IncompleteListBox
-            // 
-            IncompleteListBox.FormattingEnabled = true;
-            IncompleteListBox.Location = new Point(32, 58);
-            IncompleteListBox.Name = "IncompleteListBox";
-            IncompleteListBox.Size = new Size(327, 464);
-            IncompleteListBox.TabIndex = 1;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -322,27 +327,95 @@ namespace BoardUI
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            LoadPeopleToListBox();
+            LoadProjectToListBox();
+            LoadAllTasks();
         }
+
+        
+        private void LoadProjectToListBox()
+        {
+            var projects = GetProject_All();
+            ProjectsListBox.DataSource = projects;
+            ProjectsListBox.DisplayMember = "ProjectName";
+        }
+        private void LoadPeopleToListBox()
+        {
+            var people = GetPerson_All();
+            PersonListBox.DataSource = people;
+            PersonListBox.DisplayMember = "FullName";
+        }
+        private void LoadTaskToListBox()
+        {
+            var task = GetTask();
+
+            string displayText = $"{task.Title},{task.Deadline},{task.AssignedTo}";
+            //ToDoListBox.Items.Add(displayText);
+        }
+        private void LoadAllTasks()
+        {
+            List<TaskModel> task = GetTasks_All();
+            ToDoListBox.DataSource = task;
+            ToDoListBox.DisplayMember = "Title";
+        }
+
+
+        public List<ProjectModel> GetProject_All()
+        {
+            List<ProjectModel> output;
+            using (var call = new BoardContext())
+            {
+                output = call.Project.ToList();
+                return output;
+            }
+        }
+        public List<PersonModel> GetPerson_All()
+        {
+            List<PersonModel> output;
+            using (var call = new BoardContext())
+            {
+                output = call.Persons.ToList();
+                return output;
+            }
+        }
+        public TaskModel GetTask()
+        {
+            TaskModel output;
+            using(var call = new BoardContext())
+            {
+                output = call.Tasks.OrderByDescending(t => t.Id).FirstOrDefault();
+                return output;
+            }
+        }
+        public List<TaskModel> GetTasks_All()
+        {
+            List<TaskModel> output ;
+            using (var call = new BoardContext())
+            {
+                output = call.Tasks.ToList();
+                return output;
+            }
+        }
+
 
         private void ToDoLabel_TextChanged(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
 
         private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
 
         private void PersonListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
 
         #endregion
